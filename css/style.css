@@ -47,3 +47,105 @@ section.banner h2 {
     background: rgba(59, 134, 134, 0.5);
     padding: 2vw;
 }
+/*Formatação Serviços*/
+.etapas ul {
+    display: flex;
+    margin: 9vw 11vw 9vw 11vw;
+    text-align: center;
+}
+.etapas ul li {
+    padding: 0 3vw 0 2vw;
+}
+.etapas ul li span {
+    font-size: 4.6rem;
+    color: #3B8686;
+    margin: 0 0 1.8vw 0;
+}
+.etapas ul li h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0 0 1.7vw 0;
+}
+.etapas ul li p {
+    color: #747474;
+    margin: 0 0 2.5vw 0;
+}
+.etapas ul li a {
+    background-color: #3B8686;
+    padding: 0.7vw 1.3vw 0.7vw 1.3vw;
+}
+/*Formatação Números*/
+.numeros {
+    background:linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../img/fotonumeros.png) no-repeat center center;
+    background-size: cover;
+}
+.numeros ul {
+    display: flex;
+    padding: 5vw 5vw 5vw 5vw;
+    text-align: center;
+    justify-content: center;
+}
+.numeros ul li {
+    padding: 0 3vw 0 2vw;
+    color: #ffffff;
+}
+.numeros ul li span {
+    font-size: 4.6rem;
+}
+.numeros ul li p {
+    font-size: 2.8rem;
+}
+/*Formatação Atividads*/
+.ativ {
+    margin: 9vw 9vw 9vw 9vw;
+    display: flex;
+}
+.ativ div {
+    padding: 0 8vw 0 0;
+}
+.ativ h3 {
+    color: #0B486B;
+    font-size: 2.3rem;
+    padding: 0 0 2vw 0;
+}
+.ativ p {
+    color: #747474;
+    padding: 0 0 2vw 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.ativ button {
+    padding: 1vw 1vw 1vw 1vw;
+    background-color: #0B486B;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/*Formatação Rodapé*/
+footer {
+    background-color: #3B8686;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 6vw 4vw 6vw;
+}
+footer div.redes ul {
+    display: flex;
+}
+footer div.contato ul li {
+    display: flex;
+}
+footer div.redes span {
+    font-size: 2.4rem;
+    padding: 0 1vw 1.5vw 0;
+}
+footer div.contato h4 {
+    font-weight: bold;
+}
+footer div.contato ul li {
+    padding: 1vw 0 0 0;
+}
+footer nav ul li{
+    padding: 0 0 1vw 0;
+}
